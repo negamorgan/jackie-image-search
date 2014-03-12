@@ -1,7 +1,7 @@
 results for <%= @term %>
 
-<ul>
+<section id="photos">
 <% @search_results.each do |result| %>
-  <li><img src="<%= result.uri %>" /></li>
+  <img src="<%= result.uri %>" />
 <% end %>
-</ul>
+</section>
