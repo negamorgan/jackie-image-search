@@ -1,0 +1,7 @@
+results for <%= @term %>
+
+<ul>
+<% @search_results.each do |result| %>
+  <li><img src="<%= result.uri %>" /></li>
+<% end %>
+</ul>
